@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #000;
+    color: #333;
     line-height: 1.6;
 }
 
@@ -9,12 +9,12 @@ h2, h1 {
 }
 
 #hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 #hero h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 2rem;
 }
 
@@ -27,26 +27,24 @@ h2, h1 {
     margin-bottom: 20px;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    background-color: #0056b3;
-    border-color: #004085;
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active {
+    background-color: #fff;
+    color: #007bff;
 }
 
 .contactInfo a {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: transparent;
+    color: inherit;
     text-decoration: none;
     padding: 1rem;
-    border-radius: 8px;
     transition: background-color 0.2s ease;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -55,7 +53,7 @@ h2, h1 {
 }
 
 .contactInfo a:hover {
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .contactInfo a .bi {
@@ -64,12 +62,13 @@ h2, h1 {
 }
 
 #calendly-btn {
-    background-color: #007bff;
+    border-color: #ffffff;
     color: #ffffff;
 }
 
 #calendly-btn:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
+    color: #007bff;
 }
 
 .testimonial-text {
